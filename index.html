@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b1020" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="R Coach" />
+  <title>R Coach — Learn R on Mobile</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="icon.svg" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Pure R Learning App</p>
+        <h1>R Coach</h1>
+      </div>
+      <button id="themeBtn" class="icon-btn" aria-label="Toggle theme">☾</button>
+    </header>
+
+    <main id="app" class="screen"></main>
+
+    <nav class="bottom-nav" aria-label="Main navigation">
+      <button class="nav-item active" data-view="learn">
+        <span>▣</span>
+        <b>Learn</b>
+      </button>
+      <button class="nav-item" data-view="practice">
+        <span>✎</span>
+        <b>Practice</b>
+      </button>
+      <button class="nav-item" data-view="progress">
+        <span>◎</span>
+        <b>Progress</b>
+      </button>
+      <button class="nav-item" data-view="glossary">
+        <span>?</span>
+        <b>Glossary</b>
+      </button>
+    </nav>
+  </div>
+
+  <template id="toastTpl">
+    <div class="toast"></div>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>

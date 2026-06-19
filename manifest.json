@@ -1,0 +1,17 @@
+{
+  "name": "R Coach — Learn R on Mobile",
+  "short_name": "R Coach",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#08111f",
+  "theme_color": "#0b1020",
+  "description": "A mobile-first R learning app with interactive exercises and instant feedback.",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
